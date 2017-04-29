@@ -3,7 +3,7 @@ export class Task {
     public id: number,
     public title: string,
     public state: boolean,
-    public section: number
+    public created_at: string
   ) { }
 }
 
@@ -12,6 +12,7 @@ export class ApiTask {
     public id: number,
     public title: string,
     public state: boolean,
-    public section: number
+    public section: number,
+    public created_at: string
   ) { }
 }
